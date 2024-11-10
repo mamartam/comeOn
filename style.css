@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /* background-color: rgb(184, 243, 243); */
+    flex-direction: row;
+}
+
+.left-header {
+    width: 40%;
+    height: 100vh;
+    /* background-color: blueviolet; */
+    background-image: url(img/img1.1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.left-header img {
+    width: 100%;
+    height: 100vh;
+}
+
+.right-header {
+    width: 60%;
+    height: 100vh;
+    /* background-color: rgb(86, 75, 95); */
+}
+
+.right-header .nav {
+    width: 100%;
+    height: 4em;
+    display: flex;
+    /* justify-content: center; */
+    text-align: center;
+
+}
+
+.right-header ul li {
+    list-style-type: none;
+    cursor: pointer;
+
+}
+
+.right-header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
+
+}
+
+.right-header ul li {
+    list-style-type: none;
+
+}
+
+.right-header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.right-header ul li {
+    list-style-type: none;
+    transition: 0.3s ease;
+    width: 12em;
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.right-header ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.right-header ul li:last-child {
+    display: flex;
+    flex-direction: row;
+    width: 12em;
+    height: 3em;
+    outline: 3px solid #ffde59;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* transition: 0.3s ease; */
+
+}
+
+.right-header ul li img {
+    /* display: flex;
+    align-items: center; */
+    width: 2em;
+    padding-right: 0.5em;
+}
+
+.right-header ul li:hover {
+    background-color: #ffde59;
+}
